@@ -14,7 +14,7 @@ function dogstatsd(metric_name, metric_type, value, tags) {
         return d;
 }
 
-{
+!/is going DOWN for maintenance/ {
         split($7, arr, "/");
         pool = arr[1];
         host = arr[2];
